@@ -22,12 +22,14 @@
 The purpose of this open source software is to provide a solution to **personal expense report**.
 
 This solution includes a **Google Spreadsheet** where all expenses are reported, and a **Telegram bot** integration that allows to view the **latest expenses**, the **total of expense** and to **add or delete expenses**.
+The **delete expenses** feature has yet to be implemented for the Mr.RIP compatibility version of this bot.
 
 ## Features
 * ✅ Useful **dashboard** to keep track of your expenses total
 * ✅ Easy **personalizable** expense **categories**
 * ✅ **Data validation** in expense sheet
 * ✅ **Telegram bot integration** with **security protocol** to avoid unexpected unknown users interaction
+* ✅ Compatible with Expenses-spreadsheets organized in **Categories** and **Subcategories** (e.g. Mr.RIP, you can take a look at his spreadsheets [here](https://retireinprogress.com/nw-sheet) and his blog [here](https://retireinprogress.com)!)
 
 ## Screenshots
 
@@ -47,13 +49,14 @@ This solution includes a **Google Spreadsheet** where all expenses are reported,
 # 💪 Installation
 ## 1. Copy Google Spreadsheet
 Create a **local copy** to your Google Drive of the following **spreadsheet**:
-* 👉 **[Copy Spreadsheet](https://docs.google.com/spreadsheets/d/1VyCrEkmIRz4T_TmcKiy__y4NPLEFspRelXOKIIBrvbI/edit?usp=sharing)**
+* 👉 **[Copy Spreadsheet from original repo](https://docs.google.com/spreadsheets/d/1VyCrEkmIRz4T_TmcKiy__y4NPLEFspRelXOKIIBrvbI/edit?usp=sharing)**
+* 👉 **[Copy Spreadsheet from mr.rip expenses spreadsheet](https://docs.google.com/spreadsheets/d/19nJjqvT6bJn6CYAfvYZSNjhHatLFiyviZe5dqp4U-p8)**
 
 Remember to save your **!!LOCAL COPY!! Google Spreedsheet Id** because will be used in the next steps.
 e.g.: https://docs.google.com/spreadsheets/d/1VyCrEkmIRz4T_TmcKiy__y4NPLEFspRelXOKIIBrvbI/edit#gid=479673556
 **The spreedsheet id is '1VyCrEkmIRz4T_TmcKiy__y4NPLEFspRelXOKIIBrvbI'** <- T**his is just an example, you will have definetely a different Google Sheet Id, don't use this otherwise the Telegram Bot integration will not work**
 
-**PAY ATTENTION:** Do not change any sheet name and any column headers otherwise you'll need to update also Telegram bot source code.
+**PAY ATTENTION:** If you change any sheet name you'll need to update Telegram bot js code as well.
 
 ![GoogleSheet](./img/Screenshot7.png)
 
